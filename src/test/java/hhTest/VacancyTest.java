@@ -11,6 +11,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 import static io.qameta.allure.Allure.step;
 
+@Tag("vacancy")
 public class VacancyTest extends TestBase {
     //locators
     SelenideElement vacancy = $(".HH-MainContent"),
@@ -22,9 +23,8 @@ public class VacancyTest extends TestBase {
             checkup = $(".bloko-form-error");
 
     @Test
-    @Tag("vacancy")
-    @DisplayName("Проверка вакансии на ресурсе hh.ru")
-    void hhTest() {
+    @DisplayName("Положительная проверка вакансии на ресурсе hh.ru")
+    void hhTest01() {
         step("Открываем ссылку вакансии на ресурсе hh.ru", () -> {
             open("/vacancy/48204083?query=QA%20engineer&from=vacancy_search_catalog&hhtmFrom=vacancy_search_catalog");
         });
@@ -45,6 +45,18 @@ public class VacancyTest extends TestBase {
             attribute.setValue("12345678987654321");
             ok.click();
             checkup.shouldHave(text("Пожалуйста, укажите email или телефон"));
+        });
+    }
+
+    @Test
+    @DisplayName("Отрицательная проверка вакансии на ресурсе hh.ru")
+    void hhTest02() {
+        step("Открываем ссылку вакансии на ресурсе hh.ru", () -> {
+            open("/vacancy/48204083?query=QA%20engineer&from=vacancy_search_catalog&hhtmFrom=vacancy_search_catalog");
+        });
+        step("Проверка соответствия в ключевых навыках Python", () -> {
+            skill.scrollTo();
+            skill.shouldHave(text("Python"));
         });
     }
 }
