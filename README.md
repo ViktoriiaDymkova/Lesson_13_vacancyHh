@@ -1,7 +1,7 @@
 ## Проект автоматизации тестирования страницы вакансии на ресурсе hh.ru
 
 ---
-###Вакансия [QA Engineer](https://spb.hh.ru/vacancy/48204083?query=QA%20engineer&from=vacancy_search_catalog&hhtmFrom=vacancy_search_catalog)
+### Вакансия [QA Engineer](https://spb.hh.ru/vacancy/48204083?query=QA%20engineer&from=vacancy_search_catalog&hhtmFrom=vacancy_search_catalog)
 
 <a id="anchor"></a>
 
@@ -84,7 +84,7 @@ vacancy
 
 <img width="30%"  title="тлготчет.png" src="images/screenshot/тлготчет.png">
 
-:arrow_up: Кроме красочной инфографики достпупна возможность перейти по ссыле для просмотра отчета:
+Кроме красочной инфографики достпупна возможность перейти по ссыле для просмотра отчета:
 [просмотреть сейчас ](https://jenkins.autotests.cloud/job/Lesson_13_vacancyHh/35/allure/)
 
 ---
