@@ -22,10 +22,13 @@ public class TestBase {
         String password = config.password();
         String remote = System.getProperty("remote", "selenoid.autotests.cloud/wd/hub");
         String browserSize = System.getProperty("browserSize", "1920x1080");
+        String browser = System.getProperty("browser", "chrome");
+
 
         Configuration.baseUrl = "https://spb.hh.ru";
         Configuration.browserSize = browserSize;
         Configuration.remote = "https://" + login + ":" + password + "@" + remote;
+        Configuration.browser = browser;
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setCapability("enableVNC", true);
