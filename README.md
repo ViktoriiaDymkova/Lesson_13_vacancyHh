@@ -91,8 +91,7 @@ vacancy
 :clapper: __Видео примера прохождения теста__
 
 Запуск проходит на удаленном веб-драйвере Selenoid
-!(/Users/user/IdeaProjects/Lesson_13_hh.ru/vacancy/images/video/видео.mp4)
-
+<img title="Selenoid Video" src="images/video/видео.gif">
 
 :arrow_up: [Вверх страницы](#anchor)
 
