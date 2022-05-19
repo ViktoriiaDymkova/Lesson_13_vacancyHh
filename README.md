@@ -1,7 +1,9 @@
 ## Проект автоматизации тестирования страницы вакансии на ресурсе hh.ru
 
-Вакансия [QA Engineer](https://spb.hh.ru/vacancy/48204083?query=QA%20engineer&from=vacancy_search_catalog&hhtmFrom=vacancy_search_catalog)
-<a id=""anchor"></a>
+---
+###Вакансия [QA Engineer](https://spb.hh.ru/vacancy/48204083?query=QA%20engineer&from=vacancy_search_catalog&hhtmFrom=vacancy_search_catalog)
+
+<a id="anchor"></a>
 
 :closed_book: __Содержание__
 + Технологии и инструменты
@@ -17,16 +19,7 @@
 
 :toolbox:__Технологии и инструменты__
 
-<img width="10%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg">
-<img width="10%" title="Gradle" src="images/logo/Gradle.svg">
-<img width="10%" title="Java" src="images/logo/Java.svg">
-<img width="10%" title="Jenkins" src="images/logo/Jenkins.svg">
-<img width="10%" title="JUnit5.svg" src="images/logo/JUnit5.svg">
-<img width="10%" title="Selenide.svg" src="images/logo/Selenide.svg">
-<img width="10%" title="Selenoid.svg" src="images/logo/Selenoid.svg">
-<img width="10%" title="GitHub.svg" src="images/logo/GitHub.svg">
-<img width="10%" title="Allure_Report.svg" src="images/logo/Allure_Report.svg">
-<img width="10%" title="Telegram.svg" src="images/logo/Telegram.svg">
+<img width="10%" title="IntelliJ IDEA" src="images/logo/Intelij_IDEA.svg"><img width="10%" title="Gradle" src="images/logo/Gradle.svg"><img width="10%" title="Java" src="images/logo/Java.svg"><img width="10%" title="Jenkins" src="images/logo/Jenkins.svg"><img width="10%" title="JUnit5.svg" src="images/logo/JUnit5.svg"><img width="10%" title="Selenide.svg" src="images/logo/Selenide.svg"><img width="10%" title="Selenoid.svg" src="images/logo/Selenoid.svg"><img width="10%" title="GitHub.svg" src="images/logo/GitHub.svg"><img width="10%" title="Allure_Report.svg" src="images/logo/Allure_Report.svg"><img width="10%" title="Telegram.svg" src="images/logo/Telegram.svg">
 
 ---
 __Реализованные проверки__
@@ -46,7 +39,7 @@ __Реализованные проверки__
 ---
 :toolbox: __Сборка в Jenkins__
 
-###[Проект Lesson_13_vacancyHh](https://jenkins.autotests.cloud/job/Lesson_13_vacancyHh/)
+[Проект Lesson_13_vacancyHh](https://jenkins.autotests.cloud/job/Lesson_13_vacancyHh/)
 
 
 <img width="100%" title="сборка в дженкинсе.png" src="images/screenshot/сборка в дженкинсе.png">
@@ -89,7 +82,7 @@ vacancy
 ---
 :incoming_envelope: __Отчет в Telegram__
 
-<img width="100%"  title="тлготчет.png" src="images/screenshot/тлготчет.png">
+<img width="30%"  title="тлготчет.png" src="images/screenshot/тлготчет.png">
 
 :arrow_up: Кроме красочной инфографики достпупна возможность перейти по ссыле для просмотра отчета:
 [просмотреть сейчас ](https://jenkins.autotests.cloud/job/Lesson_13_vacancyHh/35/allure/)
@@ -101,4 +94,6 @@ vacancy
 !(/Users/user/IdeaProjects/Lesson_13_hh.ru/vacancy/images/video/видео.mp4)
 
 
-[Вверх](#anchor)
+:arrow_up: [Вверх страницы](#anchor)
+
+---
