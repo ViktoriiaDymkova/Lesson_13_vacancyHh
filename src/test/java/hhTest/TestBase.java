@@ -26,7 +26,7 @@ public class TestBase {
 
 
         Configuration.baseUrl = "https://spb.hh.ru";
-        Configuration.browserSize = browserSize;
+         Configuration.browserSize = browserSize;
         Configuration.remote = "https://" + login + ":" + password + "@" + remote;
         Configuration.browser = browser;
 
